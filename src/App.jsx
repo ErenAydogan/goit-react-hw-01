@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import Profile from './components/Profile';
-import FriendList from './components/FriendList';
+import Profile from './components/Profile/Profile';
+import FriendList from './components/FriendList/FriendList';
 import userData from './data/userData';
 import friends from './data/friends';
 import transactions from './data/transactions';
-import TransactionHistory from './components/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 
 function App() {

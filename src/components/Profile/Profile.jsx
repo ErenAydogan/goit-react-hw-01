@@ -1,3 +1,5 @@
+import './module.css';
+
 const Profile = (props) =>
 {
     return (

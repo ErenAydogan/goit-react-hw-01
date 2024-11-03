@@ -1,3 +1,5 @@
+import './module.css';
+
 const FriendList = (props) => {
     return (
         <>

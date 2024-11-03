@@ -1,0 +1,34 @@
+.transaction-table
+{
+    @apply w-1/2 border border-black;
+}
+
+.table_header
+{
+    @apply bg-gray-700 text-white p-2;
+}
+
+.table_header-row > th
+{
+    @apply p-3 border border-black;
+}
+
+.table_body
+{
+    @apply text-center;
+}
+
+.table-body-row > td
+{
+    @apply p-3 border border-black;
+}
+
+.table-body-row-odd
+{
+    @apply bg-white;
+}
+
+.table-body-row-even
+{
+    @apply bg-gray-300;
+}
